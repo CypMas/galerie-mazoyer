@@ -7,7 +7,11 @@ Le projet met en avant trois pages principales :
 - une page de contact avec validation côté client.
 
 ---
+## Visualier le site en ligne
+https://raw.githack.com/Suprem69/site-futuram/main/index.html
 
+
+---
 ## Aperçu rapide
 
 Le site est pensé pour une navigation simple :
@@ -28,13 +32,6 @@ L’ambiance visuelle repose sur des images grand format, une navigation sobre e
 - **jQuery**
 - **Lightbox2** (affichage des images en plein écran)
 - **Google Fonts** (`Lobster`, `Righteous`)
-
----
-
-## Lancer le site en local
-
-Aucune installation n’est nécessaire.
-
 
 
 ---
