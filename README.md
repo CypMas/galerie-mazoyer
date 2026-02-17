@@ -1,4 +1,4 @@
-# Mazoyer Gallerie
+# Galerie Mazoyer
 
 Site vitrine d’une galerie de tableaux, construit en HTML/CSS/JavaScript.
 Le projet met en avant trois pages principales :
@@ -39,7 +39,7 @@ L’ambiance visuelle repose sur des images grand format, une navigation sobre e
 ## Arborescence utile
 
 ```text
-gallerie art/
+galerie-mazoyer/
 ├─ index.html
 ├─ gallery.html
 ├─ contact.html
@@ -83,4 +83,4 @@ gallerie art/
 
 ## Auteur
 
-Projet réalisé pour la **Mazoyer Gallerie**.
+Projet réalisé pour la **Galerie Mazoyer**.
