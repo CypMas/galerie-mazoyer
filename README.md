@@ -8,7 +8,7 @@ Le projet met en avant trois pages principales :
 
 ---
 ## Visualier le site en ligne
-https://raw.githack.com/Suprem69/site-futuram/main/index.html
+https://raw.githack.com/Suprem69/galerie-mazoyer/main/index.html
 
 
 ---
