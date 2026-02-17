@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>gallerie Mazoyer</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- importation des font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body class="body_contact">
+    <!-- barre de navigation -->
+    <header>
+        <nav class="navbar navbar-default barre-navig">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a class="main-title" href="index.html"><h1>Mazoyer Gallerie</h1></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="navbar-nav nav pull-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="gallery.html">Gallerie</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- image acceuil -->
+<div class="background">
+</div>
+<!-- texte acceuil -->
+<div class="cadre_fond">
+
+    <!-- formulaire -->
+    <h1 class="titre-formu texte">Formulaire de contact</h1>
+    <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+        <table class="form-style">
+            <tr class="nom">
+                <td>
+                    <label>
+                        Votre nom 
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="name" class="long" />
+                    <span class="error" id="errorname"></span>
+                </td>
+            </tr>
+            <tr class="email">
+                <td>
+                    <label>
+                        Votre adresse e-mail 
+                    </label>
+                </td>
+                <td>
+                    <input type="email" name="email" class="long" />
+                    <span class="error" id="erroremail"></span>
+                </td>
+            </tr>
+            <tr class="message">
+                <td>
+                    <label>
+                        Message 
+                    </label>
+                </td>
+                <td>
+                    <textarea name="message" class="long field-textarea"></textarea>
+                    <span class="error" id="errormsg"></span>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div class="buttonEnvoi">
+                        <div class="container">
+                            <div class="tick">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttonReset">
+                        <input type="reset" value="Réinitialiser">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+    <script src="contact.js"></script>
+</body>
+</html>
